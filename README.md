@@ -10,10 +10,10 @@
 ---
 
 ## 👥 **Integrantes del Equipo**
-| Nombre        | Matrícula | Rol en el equipo |
-|--------------|----------|----------------|
-| _Riona Morales Sergio Kaleb_ | _[ID]_   | 
-| _Rubio Paredes Abraham Benito_ | _[ID]_   | 
-| _Valverde Moctezuma Eduardo Iván_ | _[ID]_   | 
+| Nombre        | 
+|--------------|
+| _Riona Morales Sergio Kaleb_ |
+| _Rubio Paredes Abraham Benito_ |
+| _Valverde Moctezuma Eduardo Iván_ | 
 
 ---
