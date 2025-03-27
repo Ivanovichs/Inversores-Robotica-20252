@@ -153,7 +153,7 @@
 <joint name = "arm_joint" type = "fixed"> 
   <parent link = "armtwo_link"/> 
   <child link = "arm_link"/> 
-  <origin xyz = "-0.05 0.4 0" rpy = "0 0 0"/> 
+  <origin xyz = "-0.05 0.4 0" rpy = "0 0 3.14"/> 
   <axis xyz = "0 0 1"/> 
  </joint>
 <joint name = "armone_joint" type = "revolute"> 
@@ -177,6 +177,3 @@
   <limit effort="10.0" lower="-0.29" upper="0" velocity="0.5"/>
 </joint>
 </robot>
-
-
-
