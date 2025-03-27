@@ -6,7 +6,11 @@
 - **Materia:** _Robótica_
 - **Profesor:** _Roberto Angel Garcia Garcia_
 - **Fecha:** _2025-2_
+---
+Bienvenido a este repositorio, donde se recopilan las prácticas realizadas en la materia de **Robótica**. Aquí encontrarás códigos, modelos y documentación relacionados con simulaciones, control y diseño de sistemas robóticos.  
 
+## 📌 Contenido  
+- **Practica 01**: Creacion del repositorio en GitHub, generacion de un modelo URDF (✅ **Entrega final:** 26 de marzo de 2025)
 ---
 
 ## 👥 **Integrantes del Equipo**
