@@ -12,7 +12,7 @@ Bienvenido a este repositorio, donde se recopilan las prácticas realizadas en l
 ## 📌 Contenido  
 - **Practica 01**: Creacion del repositorio en GitHub, generacion de un modelo URDF (✅ **Entrega final:** 26 de marzo de 2025)
 - **Practica 02**: Modelo cinematico inverso de un manipulador y planteamiento de trayectoria (✅ **Entrega final:** 16 de mayo de 2025)
-- **Practica 02**: Modelo dinámico inverso de un robot y planteamiento de trayectoria (✅ **Entrega final:** 16 de mayo de 2025)
+- **Practica 03**: Modelo dinámico inverso de un robot y planteamiento de trayectoria (✅ **Entrega final:** 16 de mayo de 2025)
 ---
 
 ## 👥 **Integrantes del Equipo**
