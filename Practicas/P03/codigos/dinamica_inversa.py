@@ -1,5 +1,5 @@
 #!/usr/bin/env python3 
-from generador_trayectoria import GeneradorTrayectoria
+from generador_trayectoria_p2 import GeneradorTrayectoria
 from sympy import *
 import matplotlib
 import matplotlib.pyplot as plt
@@ -126,7 +126,6 @@ class GeneradorDinamica(GeneradorTrayectoria):
         self.theta_2_3:     self.q_m[2, i],
         self.theta_2_3_dot: self.q_dot_m[2, i]
       })
-      print(i)
     #Euler-Lagrange
     #Energía cinética
     k1 = 0.5 * self.m1 * v_1_C1.dot(v_1_C1) + 0.5 * omega_1_C1.dot(self.Ic1@omega_1_C1)
@@ -166,12 +165,11 @@ class GeneradorDinamica(GeneradorTrayectoria):
       self.tau_val[:, i] = tau.subs({self.theta_0_1 : self.q_m[0, i], self.theta_1_2: self.q_m[1, i], self.theta_2_3 : self.q_m[2, i],
                             self.theta_0_1_dot:self.q_dot_m[0, i], self.theta_1_2_dot:self.q_dot_m[1, i], self.theta_2_3_dot:self.q_dot_m[2, i], 
                             self.theta_0_1_dot_dot:self.q_dot_dot_m[0, i], self.theta_1_2_dot_dot:self.q_dot_dot_m[1, i], self.theta_2_3_dot_dot:self.q_dot_dot_m[2, i]})
-      print(i)  
   def graficar_esfuerzos(self):
     fig, ((tau_1_g, tau_2_g, tau_3_g)) = plt.subplots(nrows=1, ncols = 3)
     # Posiciones ws
     tau_1_g.set_title("Esfuerzo junta 1")
-    tau_1_g.plot(self.t_m.T, self.tau_val[0, :].T, color = "RED")
+    tau_1_g.plot(self.t_m.T, self.tau_val[0, :].T, color = "YELLOW")
 
     # Velocidades ws
     tau_2_g.set_title("Esfuerzo junta 2")
